@@ -1,0 +1,46 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	display: block;
+}
+
+.texte{
+	background-color: black;
+	text-align: justify;
+	padding: 25% 25%;
+}
+
+.texte h3{
+	text-align: center;
+	color: white;
+}
+
+.img1{
+	background-image: url(../imgs/Japan_background.jpeg);
+	min-height: 100%;
+}
+
+.img2{
+	background-image: url(../imgs/Nature_background.jpeg);
+	min-height: 100%;
+}
+
+.parallax{
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.border{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	color: white;
+}
