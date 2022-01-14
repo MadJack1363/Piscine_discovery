@@ -4,11 +4,17 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="balloon.css">
-	<script src="balloon.js"></script>
-	<title>Balloon</title>
+	<style>
+		body, html{
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+	<title>To do list</title>
 </head>
 <body>
-	<div id="balloon" onclick="size_up()" onmouseout="size_down()"></div>
+	<button id="buttonNew">New</button>
+	<div id="ft_list"></div>
+	<script src="todo.js"></script>
 </body>
 </html>
